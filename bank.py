@@ -37,6 +37,17 @@ while menyloop == True:
         print ("uttag")
         uttag = int(input(""))
         balance = balance - uttag
-        print("du har tagit ut = ", uttag, " du har nu så här mycket pengar kvar ", balance)
-        
-        
+        print("du har tagit ut = ", uttag, " du har nu så här mycket pengar kvar ", balance)    
+    else: 
+        menyloop = False
+f= open("Hallo.txt","w+")
+f.write(str(balance))
+
+
+if f.mode == "w+":
+    contens =f.read= balance:
+
+
+
+
+   
