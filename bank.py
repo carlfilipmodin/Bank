@@ -42,10 +42,10 @@ while menyloop == True:
         menyloop = False
 f= open("Hallo.txt","w+")
 f.write(str(balance))
-
+f.close()
 
 if f.mode == "w+":
-    contens =f.read= balance:
+    contens =f.read()
 
 
 
